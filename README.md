@@ -21,3 +21,8 @@ Este repositorio contiene una colección de ejercicios resueltos de **POO (Progr
 ## 🚀 Objetivo
 
 Practicar lógica de programación y los fundamentos de POO en JavaScript de forma progresiva y práctica.
+
+##  Autor
+
+Claudia Ximena Barrientos
+
