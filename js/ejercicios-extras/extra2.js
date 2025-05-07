@@ -4,8 +4,11 @@ la nota media de los estudiantes.
 Usa un bucle para recorrer el array. 
 Usa prompt para ingresar los datos de los estudiantes.*/
 
+const estudiantes = [];
+
+
 function fnnotaMedia(estudiantes) {
-  const sumaNotas = 0;
+  let sumaNotas = 0;
   for (let i = 0; estudiantes.length > i; i++) {
    let sumaNotas = sumaNotas + estudiantes[i].nota
   }
@@ -21,7 +24,7 @@ function mostrarEstudiantes(estudiantes){
     document.writeln(`</ul>`);
 };
 
-const estudiantes = [];
+
 
 do {
   const nombre = prompt("Ingrese el nombre del estudiante");
@@ -39,7 +42,7 @@ do {
   console.log(estudiantes);
 } while (confirm("¿Desea agregar más estudiantes?"));
 
-const finalnotaMedia = fnnotaMedia(estudiantes);
+let finalnotaMedia = fnnotaMedia(estudiantes);
 
 document.writeln(`La nota media de los estudiantes es: ${finalnotaMedia}`);
 mostrarEstudiantes(estudiantes)
